@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Chango&family=Roboto&display=swap");
+
+
+.FoodCartItem {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin: 0.2rem 0;
+    height: 120px;
+    background: #F1F0E8;
+
+
+
+    button {
+        height: fit-content;
+        border: none;
+        opacity: 0.3;
+
+        .delete-item {
+            content: url(../../assets/icon-delete.svg);
+            width: 20px;
+        }
+
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+            ;
+        }
+    }
+
+    .delete-btn {
+        display: inline-block;
+        Cursor: pointer;
+    }
+
+    .delete-btn {
+        width: 18px;
+        height: 17px;
+        content: 'X';
+    }
+
+
+
+    .image {
+        margin-right: 50px;
+        display: flex;
+    }
+
+    .description span {
+        display: block;
+        font-size: 20px;
+        color: #43484D;
+        font-weight: 400;
+        line-height: 50px;
+        font-weight: 500;
+
+
+        &:last-child {
+            font-weight: 300;
+            color: #86939E;
+        }
+    }
+
+
+    .quantity {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            border: none;
+            text-align: center;
+            width: 32px;
+            font-size: 16px;
+            color: #43484D;
+            font-weight: 300;
+        }
+    }
+
+    .total-price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 83px;
+        font-size: 16px;
+        color: #43484D;
+        font-weight: 300;
+    }
+}

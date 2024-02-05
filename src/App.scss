@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+.App {
+    font-family: 'Droid Arabic Naskh', serif;
+}
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width:1000px) {
+    .App {
+        width: fit-content;
+
+    }
+}
+
+@media (min-width: 400px) and (max-width:600px) {
+    .App {
+        width: fit-content;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .App {
+        width: fit-content;
+
+    }
+}

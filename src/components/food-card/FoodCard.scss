@@ -1,0 +1,58 @@
+.FoodCard.card {
+    margin: 0.5rem;
+    background-image: url(https://myhappyplates-cdn.s3.amazonaws.com/images/recipes/22ca5843-8cc1-4e0d-ab0a-ea8520b16e13.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow:
+        1px 3px 3px rgba(0, 0, 0, 0.2),
+        -1px -1px 4px rgba(0, 0, 0, 0.2);
+    height: 310px;
+    transition: box-shadow 130ms ease-in-out;
+    width: 310px;
+    // backdrop-filter: contrast(1.5);
+    background-color: rgb(32, 31, 43);
+    // border-radius: 36% 62% 49% 79% / 38% 49% 55% 88%;
+    border-radius: 85% 35% / 60% 55%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+    backdrop-filter: brightness(1.5);
+
+    &:hover {
+        box-shadow:
+            2px 6px 6px rgba(0, 0, 0, 0.2),
+            -1px -1px 7px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+    .card-footer {
+        backdrop-filter: brightness(.5);
+
+        .title {
+            z-index: 2;
+            padding: 16px;
+            opacity: 0.9;
+            filter: blur(0.2px);
+
+  
+
+            h2 {
+                color: rgb(252, 252, 252);
+            }
+        }
+
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
+// possible Card
+// border-radius: 123px 123px 171px 150px;
+// -webkit-border-radius: 123px 123px 171px 150px;
+// -moz-border-radius: 123px 123px 171px 150px;

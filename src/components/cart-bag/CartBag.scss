@@ -1,0 +1,80 @@
+.CartBag {
+    pointer-events: none;
+    transition: all 0.3s;
+    position: fixed;
+    background-color: #a3a3a3c0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bag {
+        min-height: 13vh;
+        min-width: 30vw;
+        width: 55%;
+        pointer-events: auto;
+        z-index: 10;
+        padding: 1rem;
+        box-shadow: 2px 2px 10px #454545;
+        background-color: #FFFFFF;
+        text-align: center;
+
+        .close-container {
+            display: flex;
+            justify-content: end;
+            // text-align: end;
+        }
+
+        .close {
+            background: none;
+            border: none;
+            opacity: 0.3;
+
+            svg {
+                width: 3em;
+                height: 3em;
+                font-weight: 100;
+
+            }
+
+            &:hover {
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+
+        .cart-footer {
+            display: flex;
+            justify-content: space-around;
+
+            .total:has(.go-pay) {
+                display: flex;
+                align-items: center;
+
+                button {
+                    background: none;
+                    border: none;
+                    font-size: 1.17em ;
+                    background-color: #02007e71;
+                    color: white;
+                    padding: 12px;
+                    margin: 10px 0;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    &:hover {
+                    background-color: #02007e;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+}

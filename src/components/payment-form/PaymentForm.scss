@@ -1,0 +1,123 @@
+.PaymentForm {
+
+  pointer-events: none;
+  transition: all 0.3s;
+  position: fixed;
+  background-color: #1412129e;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &>.component {
+
+    width: 30vw;
+
+    pointer-events: auto;
+    z-index: 10;
+    padding: 1rem;
+
+    box-shadow: 2px 2px 10px #454545;
+    background-color: #FFFFFF;
+
+    text-align: center;
+
+    .credit-card h2 {
+      color: rgba(4, 99, 128, 1);
+    }
+
+    .component .credit-card form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .component .credit-card .line {
+      display: flex;
+    }
+
+    .component .credit-card .line input {
+      width: 20%;
+      /* on définit une taille plus petite qu'il le faut, le flex-grow fera le reste */
+      flex: 1;
+      margin: 0.4rem 0.3rem;
+    }
+
+    input {
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, .12);
+      margin: 1rem 0;
+      padding: 4px;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    input::-webkit-input-placeholder {
+      color: #AAAAAA;
+    }
+
+    .valid-button {
+      border: 0;
+      padding: 1rem 2rem;
+      background-color: rgba(4, 99, 128, 0.9);
+      color: #ffea00;
+      font-weight: bold;
+      margin-top: 2rem;
+      box-shadow: 1px 1px 1px black;
+    }
+
+    .valid-button:hover {
+      background-color: rgba(4, 99, 128, 1);
+      box-shadow: none;
+    }
+
+    .total {
+      position: absolute;
+      top: 12em;
+      right: 47em;
+      z-index: 10;
+
+      background: #002F2F;
+      color: #a9a9a6;
+
+      width: 100px;
+      transform: rotate(-15deg);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding-right: 2rem;
+
+      box-shadow: 1px 1px 5px black;
+    }
+
+    .total p {
+      font-size: 1.5rem;
+    }
+  }
+
+  .close-container {
+    display: flex;
+    justify-content: end;
+    .close {
+      opacity: 0.3;
+      color: #002F2F;
+      width: 3em;
+      height: 3em;
+      font-weight: 100;
+      background: none;
+      border: none;
+
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+
+}

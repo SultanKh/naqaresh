@@ -1,0 +1,25 @@
+.matched-foods {
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+
+    .matched-food-item {
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .matched-food-item.show {
+        opacity: 1;
+    }
+}
+
+.no-matched-container {
+    backdrop-filter: grayscale(.1);
+    height: 100%;
+    text-align: center;
+    height: 50vh;
+    font-size: 30px;
+
+}

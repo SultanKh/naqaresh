@@ -1,0 +1,97 @@
+.CoverScreen {
+    background: url(../../assets/slider-image1.jpg) center center/cover no-repeat;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+
+    min-height: 70vh;
+
+    border-radius: 123px 123px 171px 150px;
+    // -webkit-border-radius: 123px 123px 171px 150px;
+    // -moz-border-radius: 123px 123px 171px 150px;
+
+
+    .wrapper {
+        position: relative;
+        height: 370px;
+
+
+        .shape2 {
+            position: relative;
+            top: -41px;
+            left: -75px;
+            width: 402px;
+            height: 434px;
+            background-color: rgb(32, 31, 43);
+            background-image: url(../../assets/mainChef.jpg);
+            background-size: cover;
+            background-position: top;
+            border-radius: 36% 120% 101% 90%/113% 84% 113% 86%;
+            // border-radius: 36% 62% /  55% ;
+            z-index: 10;
+            transform: rotate(6.0548rad);
+            box-shadow: 0px 8px 24px 0px rgba(140, 149, 159, 0.2);
+        }
+
+        .shape3 {
+            position: relative;
+            top: 10%;
+            left: 20%;
+            width: 364px;
+            height: 455px;
+            background-color: rgb(248, 74, 31);
+            border-radius: 86% 50% 63% 66%/40% 48% 71% 89%;
+            z-index: 5;
+            transform: rotate(6.0987rad);
+            box-shadow: 0px 8px 24px 0px rgba(140, 149, 159, 0.2);
+        }
+
+        .text {
+            font-size: 25px;
+            font-weight: 800;
+            color: rgb(10, 10, 10);
+            word-spacing: 2px;
+            line-height: 1.7;
+            margin-left: 10px;
+        }
+
+        span {
+            color: rgb(248, 74, 31);
+        }
+
+        .go {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(to right bottom,
+                    rgb(85, 84, 84),
+                    rgb(32, 31, 43));
+            border-radius: 100%;
+            text-align: center;
+            color: #fff;
+            font-size: 36px;
+            line-height: 70px;
+            float: right;
+            margin: -20px 35px;
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .CoverScreen {
+        background: url(../../assets/mainChef.jpg) center center/cover no-repeat;
+        .wrapper {
+            .shape2 {
+                visibility: hidden;
+            }
+
+            .shape3 {
+                visibility: hidden;
+            }
+
+
+        }
+
+
+
+    }
+}

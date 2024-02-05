@@ -1,0 +1,12 @@
+.FoodSection {
+background: linear-gradient(145deg, #ffffff 25%, #fffdd0 25%, #fffdd0 50%, #ffffff 50%, #ffffff 75%, #fffdd0 75%, #fffdd0 100%);
+    .FoodCard-container {
+        margin: 1rem;
+        padding: 0.5rem;
+        display: flex;
+        flex-wrap:wrap;
+        gap: 2rem;
+        justify-content: center;
+
+    }
+}
