@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/naqaresh/static/css/main.9cfad7ef.css",
-    "main.js": "/naqaresh/static/js/main.7b7d75c9.js",
+    "main.js": "/naqaresh/static/js/main.0a0db8ee.js",
     "static/css/705.8b7b3067.chunk.css": "/naqaresh/static/css/705.8b7b3067.chunk.css",
     "static/js/705.ddc7a3d2.chunk.js": "/naqaresh/static/js/705.ddc7a3d2.chunk.js",
     "static/js/787.38cf1815.chunk.js": "/naqaresh/static/js/787.38cf1815.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/icon-delete.svg": "/naqaresh/static/media/icon-delete.f4391294bf42acd834de.svg",
     "static/media/icon-heart.svg": "/naqaresh/static/media/icon-heart.51de94e0c6097f9ab8d5a82083b090fd.svg",
     "main.9cfad7ef.css.map": "/naqaresh/static/css/main.9cfad7ef.css.map",
-    "main.7b7d75c9.js.map": "/naqaresh/static/js/main.7b7d75c9.js.map",
+    "main.0a0db8ee.js.map": "/naqaresh/static/js/main.0a0db8ee.js.map",
     "705.8b7b3067.chunk.css.map": "/naqaresh/static/css/705.8b7b3067.chunk.css.map",
     "705.ddc7a3d2.chunk.js.map": "/naqaresh/static/js/705.ddc7a3d2.chunk.js.map",
     "787.38cf1815.chunk.js.map": "/naqaresh/static/js/787.38cf1815.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cfad7ef.css",
-    "static/js/main.7b7d75c9.js"
+    "static/js/main.0a0db8ee.js"
   ]
 }
